@@ -9,8 +9,12 @@ anime({
 
 anime({
     targets: '.text',
+    translateX: [
+        { value: 1000, duration: 1200 },
+        { value: 0, duration: 500 }
+      ],
     opacity: [
         { value: [0, 1], duration: 2000, easing: 'easeOutQuad' }
           ],
-    delay: 2500
+    delay: 800
   });
